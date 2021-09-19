@@ -60,5 +60,5 @@ for i in range(133885):
 <<<<<<< HEAD
 	fanswer.write('SMILES_{}={} Hf_{}={}\n'.format(j, a[int(N)+3][0], j, Hf298))
 =======
-	fanswer.write('SMILES_{}={} Hf_{}={}\n'.format(j, a[int(N)+3][0], j, Hf298))
+	fanswer.write('{} {}\n'.format(a[int(N)+3][0],Hf298))
 >>>>>>> 797ce3fd8ba3a5190815d1a949bf9f4c2475d6b6
